@@ -1,0 +1,18 @@
+nav{
+    grid-area: me;
+}
+
+main{
+    grid-area: fo;
+}
+
+
+#tartalom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    'me me fo be'
+    'me me fo ba jo'
+    'ke os el el el'
+}
